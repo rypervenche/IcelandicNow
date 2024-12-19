@@ -13,17 +13,19 @@ const config: Config = {
   url: 'https://icelandicnow.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/IcelandicNow/',
+  // baseUrl: '/', // TODO: Change this back when in production
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  // organizationName: 'facebook', // Usually your GitHub org/user name.
-  // projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'tbrennan6', // Usually your GitHub org/user name.
+  projectName: 'IcelandicNow', // Usually your repo name.
 
   // TODO: Fix links and change back to 'throw'
   // onBrokenLinks: 'throw',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+  trailingSlash: false,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
